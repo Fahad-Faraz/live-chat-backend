@@ -7,7 +7,7 @@ import rateLimit from "express-rate-limit";
 import helmet from "helmet";
 import compression from "compression"; // ✅ FIX: was missing
 
-import connectDB from "./Config/db.js";
+import connectDB from "./config/db.js";
 import authRoutes from "./Routes/authRoutes.js";
 import messageRoutes from "./Routes/messageRoutes.js";
 import userRoutes from "./Routes/userRoutes.js";
